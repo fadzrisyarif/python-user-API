@@ -15,19 +15,22 @@ send a json object to http://felixstore.pythonanywhere.com/api/v1/users/add with
 send a get method to http://felixstore.pythonanywhere.com/api/v1/users
 
 -Read single user
-send a get method to http://felixstore.pythonanywhere.com/api/v1/users/{ user id } 
+send a get method to http://felixstore.pythonanywhere.com/api/v1/users/
+{\ 
+  "id": user id\
+} 
 
 -Update user
-send a json object to http://felixstore.pythonanywhere.com/api/v1/users/update with method post with value 
-{
-  "firstname":"user new first name"
-  "lastname":"user new last name"
-  "email":"user new email"
-  "id":"{ user current id }"
+send a json object to http://felixstore.pythonanywhere.com/api/v1/users/update with method post with value   
+{\
+  "firstname":"user new first name"\
+  "lastname":"user new last name"\
+  "email":"user new email"\
+  "id": user_current_id \
 } 
 
 -Delete user
 send a json object to http://felixstore.pythonanywhere.com/api/v1/users/delete with method post with value 
-{
-  "id":"{ user current id }"
+{\
+  "id":"{ user current id }"\
 } 
