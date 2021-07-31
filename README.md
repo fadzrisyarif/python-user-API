@@ -32,5 +32,5 @@ send a json object to http://felixstore.pythonanywhere.com/api/v1/users/update w
 -Delete user
 send a json object to http://felixstore.pythonanywhere.com/api/v1/users/delete with method post with value  
 {\
-  "id":"{ user current id }"\
+  "id": user_current_id\
 } 
