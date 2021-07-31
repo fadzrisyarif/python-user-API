@@ -2,7 +2,7 @@
 
 This API can be used to perform create read update and delete from database sqlite. this app is also hosted on http://felixstore.pythonanywhere.com/.
 
-How to implements:
+How to implements:  
 -Create user
 send a json object to http://felixstore.pythonanywhere.com/api/v1/users/add with method post with value  
 {\
