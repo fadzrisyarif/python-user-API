@@ -4,8 +4,8 @@ This API can be used to perform create read update and delete from database sqli
 
 How to implements:
 -Create user
-send a json object to http://felixstore.pythonanywhere.com/api/v1/users/add with method post with value\ 
-{
+send a json object to http://felixstore.pythonanywhere.com/api/v1/users/add with method post with value  &nbsp;
+{\
   "firstname":"user first name"\
   "lastname":"user last name"\
   "email":"user email"\
