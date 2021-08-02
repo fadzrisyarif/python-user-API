@@ -15,10 +15,7 @@ send a json object to https://felixstore.pythonanywhere.com/api/v1/users/add wit
 send a get method to http://felixstore.pythonanywhere.com/api/v1/users
 
 -Read single user
-send a get method to http://felixstore.pythonanywhere.com/api/v1/users/  
-{\
-  "id": user id\
-} 
+send a get method to http://felixstore.pythonanywhere.com/api/v1/users/{id} 
 
 -Update user
 send a json object to http://felixstore.pythonanywhere.com/api/v1/users/update with method post with value   
